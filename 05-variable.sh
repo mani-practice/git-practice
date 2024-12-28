@@ -2,7 +2,7 @@
 
 echo "Please enter Username::"
 
-read -s "USERNAME"
+read -s "USERNAME" # -s will hide the text while entering. here we are passing arg through read
 
 echo "Username is: $USERNAME"
 
