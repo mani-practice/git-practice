@@ -1,13 +1,8 @@
 #!/bin/bash
 
-  HAPPYSOULS1=$1
-  HAPPYSOULS2=$2
+ HAPPYSOULS1=("MANI" "SHREE")
 
+echo "The happy couples are:=${$HAPPYSOULS1[0]}"
 
-SUM=$(($HAPPYSOULS1+HAPPYSOULS2))
-
-echo "The combination of $HAPPYSOULS1 and $HAPPYSOULS2 is: $SUM"
-
-echo "$SUM are happy people"
 
 
