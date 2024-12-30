@@ -1,12 +1,12 @@
 #!/bin/bash
 
- COUPLES=("Apple" "Banana" "Orange")
+ COUPLES=("MANI" "SHREE")
 
-echo "first fruit is:=${COUPLES[0]}"
-echo "second fruit is:=${COUPLES[1]}"
-echo "second fruit is:=${COUPLES[2]}"
+echo "first Happysoul is:=${COUPLES[0]}"
+echo "second Happysoul is:=${COUPLES[1]}"
 
-echo "All fruits are:=${COUPLES[@]}"
+
+echo "All Happysouls are:=${COUPLES[@]}"
 
 
 
