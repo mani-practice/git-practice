@@ -1,8 +1,11 @@
 #!/bin/bash
 
- HAPPYSOULS=$("MANI" "SHREE")
+ HAPPYSOUL=("MANI" "SHREE")
 
-echo "The happy couples are:=${$HAPPYSOULS[@]}"
+ echo "HAPPYSOUL  is:=${FRUITS[0]}"
+ echo "second HAPPYSOUL is:=${FRUITS[1]}"
+
+echo "The All happy souls are:=${$HAPPYSOUL[@]}"
 
 
 
