@@ -5,7 +5,7 @@
  if [ $LOVE -gt 12 ]
  then
 
- echo "Bhagyashree love mani: $LOVE is greater than 12"
+ echo "Bhagyashree love mani: -s $LOVE is greater than 12"
 
  else
 
