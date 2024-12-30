@@ -2,8 +2,8 @@
 
  HAPPYSOUL=("MANI" "SHREE")
 
- echo "HAPPYSOUL  is:=${FRUITS[0]}"
- echo "second HAPPYSOUL is:=${FRUITS[1]}"
+ echo "HAPPYSOUL  is:=${ HAPPYSOUL[0]}"
+ echo "second HAPPYSOUL is:=${ HAPPYSOUL[1]}"
 
 echo "The All happy souls are:=${$HAPPYSOUL[@]}"
 
