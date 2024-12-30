@@ -8,4 +8,3 @@ echo "Home directory of current user: $HOME"
 echo "process ID of script executing now: $$"
 
 sleep 100 &
-echo "PID of last background command: $!"
