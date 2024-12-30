@@ -2,7 +2,7 @@
 
  HAPPYSOULS1=("MANI" "SHREE")
 
-echo "The happy couples are:=${$HAPPYSOULS1[0]}"
+echo "The happy couples are:=${$HAPPYSOULS1[@]}"
 
 
 
