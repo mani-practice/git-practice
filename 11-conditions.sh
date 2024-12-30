@@ -1,12 +1,17 @@
 #!/bin/bash
 
- COUPLES=("$1" "$2")
+ LOVE=$1
 
-echo "first Happysoul is:=${COUPLES[0]}"
-echo "second Happysoul is:=${COUPLES[1]}"
+ if [ $LOVE -gt 12]
+ then
 
+ echo "Bhagyashree love mani: $LOVE is greater than 12"
 
-echo "All Happysouls are:=${COUPLES[@]}"
+ else
+ 
+ echo "mani loves Bhagyshree: $LOVE is les than 12"
+
+ fi
 
 
 
