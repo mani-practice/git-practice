@@ -1,6 +1,6 @@
 #!/bin/bash
 
- HAPPYSOULS=("MANI" "SHREE")
+ HAPPYSOULS=$("MANI" "SHREE")
 
 echo "The happy couples are:=${$HAPPYSOULS[@]}"
 
